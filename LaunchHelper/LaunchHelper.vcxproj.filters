@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{f85ebb83-1342-40ed-8d26-c0c58960434a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\SharedUtility">
+      <UniqueIdentifier>{c6c43769-d9bd-437d-8164-f8a154d87a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Common">
+      <UniqueIdentifier>{3f8c0c7c-a6f3-41d0-ab51-92c670530914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Shared\SharedUtility\SharedUtility.cpp">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="..\Shared\Common\Common.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\SharedUtility.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

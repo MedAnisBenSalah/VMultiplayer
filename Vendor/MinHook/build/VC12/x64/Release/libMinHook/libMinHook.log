@@ -1,0 +1,19 @@
+﻿Build started 8/8/2015 5:06:43 AM.
+     1>Project "C:\Users\OrMisicL\Desktop\Projects\VMultiplayer\Vendor\MinHook\build\VC12\libMinHook.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include\ /nologo /W3 /WX- /O1 /Ob2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\libMinHook\\" /Fd"x64\Release\libMinHook\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\src\buffer.c ..\..\src\HDE\hde64.c ..\..\src\hook.c ..\..\src\trampoline.c
+         buffer.c
+         hde64.c
+         hook.c
+         trampoline.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\OrMisicL\Desktop\Projects\VMultiplayer\lib\Release\libMinHook.x64.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\libMinHook\buffer.obj
+         x64\Release\libMinHook\hde64.obj
+         x64\Release\libMinHook\hook.obj
+         x64\Release\libMinHook\trampoline.obj
+         libMinHook.vcxproj -> C:\Users\OrMisicL\Desktop\Projects\VMultiplayer\lib\Release\libMinHook.x64.lib
+     1>Done Building Project "C:\Users\OrMisicL\Desktop\Projects\VMultiplayer\Vendor\MinHook\build\VC12\libMinHook.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74

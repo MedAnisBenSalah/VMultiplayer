@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Shared\SharedUtility\SharedUtility.cpp">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Logger\Logger.cpp">
+      <Filter>Shared\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="IDXGISwapChainHook.cpp">
+      <Filter>Hooks\Direct3D11Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiplayer.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ExceptionHandler\ExceptionHandler.cpp">
+      <Filter>Shared\ExceptionHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHooks.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="VStreaming.cpp">
+      <Filter>V\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="VGame.cpp">
+      <Filter>V\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="VDynamicEntity.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VEntity.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VPed.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VPedFactory.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VPhysical.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VThread.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VThreadManager.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Managers\ManagerBase.cpp">
+      <Filter>Shared\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="VPedPool.cpp">
+      <Filter>V\Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="VPlayerInfoPool.cpp">
+      <Filter>V\Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="VPlayerInfo.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VPools.cpp">
+      <Filter>V\Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SharedUtility\Library.cpp">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatWindow.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowHook.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D11DeviceHook.cpp">
+      <Filter>Hooks\Direct3D11Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput8Hook.cpp">
+      <Filter>Hooks\DirectInputHook</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput8DeviceHook.cpp">
+      <Filter>Hooks\DirectInputHook</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkPlayer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectWindow.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SharedUtility\Thread.cpp">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Component\Component.cpp">
+      <Filter>Shared\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRFS.cpp">
+      <Filter>Network\RF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Network\BitStream.cpp">
+      <Filter>Shared\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="MainRFS.cpp">
+      <Filter>Network\RF</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="VModel.cpp">
+      <Filter>V\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="..\Shared\SharedUtility\SharedUtility.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Common\Common.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Logger\Logger.h">
+      <Filter>Shared\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplayer.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIText.h">
+      <Filter>Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIElement.h">
+      <Filter>Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ExceptionHandler\ExceptionHandler.h">
+      <Filter>Shared\ExceptionHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="IDXGISwapChainHook.h">
+      <Filter>Hooks\Direct3D11Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Patches.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHooks.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembly.h">
+      <Filter>Assembly</Filter>
+    </ClInclude>
+    <ClInclude Include="VObjectBase.h">
+      <Filter>V</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Vector2.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Vector3.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="VStreaming.h">
+      <Filter>V\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VScriptVector3.h">
+      <Filter>V</Filter>
+    </ClInclude>
+    <ClInclude Include="VGame.h">
+      <Filter>V\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VDynamicEntity.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VEntity.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VPed.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VPedFactory.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VPhysical.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VThread.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VThreadManager.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Managers\ManagerBase.h">
+      <Filter>Shared\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="VPool.h">
+      <Filter>V\Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="VPools.h">
+      <Filter>V\Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="VPedPool.h">
+      <Filter>V\Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="VPlayerInfoPool.h">
+      <Filter>V\Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="VPlayerInfo.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VModelInfo.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Library.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatWindow.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIEditBox.h">
+      <Filter>Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUICommon.h">
+      <Filter>Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWindow.h">
+      <Filter>Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\RGB.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\RGBA.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowHook.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D11DeviceHook.h">
+      <Filter>Hooks\Direct3D11Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput8Hook.h">
+      <Filter>Hooks\DirectInputHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput8DeviceHook.h">
+      <Filter>Hooks\DirectInputHook</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPlayer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetMessage.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetSenderInfo.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\Network.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\RFIdentifiers.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\RFParameters.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetCommon.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectWindow.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Thread.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Component\Component.h">
+      <Filter>Shared\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\PacketPriority.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRFS.h">
+      <Filter>Network\RF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\BitStream.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="MainRFS.h">
+      <Filter>Network\RF</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VModel.h">
+      <Filter>V\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{1790a3a5-9aac-4ce6-ae71-5df91c7c9d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\SharedUtility">
+      <UniqueIdentifier>{7e98aa37-a774-42a2-8a69-3c3326f6e7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Common">
+      <UniqueIdentifier>{41b12d24-7eeb-4b37-a87d-f56adbcd2c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Logger">
+      <UniqueIdentifier>{720e8f79-9e73-45a5-b48a-6b6b75c1c0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{bf97dc21-bf9b-41a7-853d-5cf816266d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{d9ae8228-08db-4fae-a039-23273959c194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Direct3D11Hook">
+      <UniqueIdentifier>{875a7d33-206b-4936-82ca-46d2c69085ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer">
+      <UniqueIdentifier>{7d235ce7-fcc1-483d-9c0a-60427832b9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\ExceptionHandler">
+      <UniqueIdentifier>{a15160ae-0f90-424e-aba6-ecde74679c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6cf78d48-827a-4d9b-addb-a0250fa5574f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assembly">
+      <UniqueIdentifier>{b73f649b-b014-4962-8070-37b675e580d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{23688edd-0bdf-4b8f-9893-d2be88a7f9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\GUI">
+      <UniqueIdentifier>{57de3adf-51d2-4e55-90dd-ee1967c41281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="V">
+      <UniqueIdentifier>{e9a9db4b-01d7-46b5-8a5f-7c788f5a2c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="V\Game">
+      <UniqueIdentifier>{1fc60e4b-6b67-4d74-a2e5-d699bb8986d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Managers">
+      <UniqueIdentifier>{72176271-c994-445f-86ed-84c7809375cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{ad4f4b06-226e-4af3-8c09-756c1d265e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="V\Objects">
+      <UniqueIdentifier>{5d7dafec-a726-4d35-a9d7-454ebe82f2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="V\Pools">
+      <UniqueIdentifier>{2e98b48e-933c-4e86-b282-1aa7f0c02cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{bb0d48dc-b305-4978-b687-e9bb39c79a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\DirectInputHook">
+      <UniqueIdentifier>{92918c16-4406-49db-b2b9-eca2ec30334e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Network">
+      <UniqueIdentifier>{70321ca2-0835-4205-982a-5bd5455885b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{19ea1fa0-87f6-4c15-93f7-08b4501b1e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Component">
+      <UniqueIdentifier>{d1d819bf-8865-4eaa-8f1d-6bbc3a6b31e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\RF">
+      <UniqueIdentifier>{faedcb0b-42e9-4b36-a458-3ec5372e6ad7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Assembly.asm">
+      <Filter>Assembly</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

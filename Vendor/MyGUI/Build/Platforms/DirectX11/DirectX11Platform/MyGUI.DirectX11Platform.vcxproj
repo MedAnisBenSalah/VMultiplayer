@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7E724A4B-2530-461F-AE75-D74F84900B3D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>MyGUI.DirectX11Platform</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MyGUI.DirectX11Platform.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MyGUI.DirectX11Platform_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MyGUI.DirectX11Platform.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MyGUI.DirectX11Platform</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MyGUI.DirectX11Platform.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MyGUI.DirectX11Platform</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MyGUI.DirectX11Platform.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MyGUI.DirectX11Platform</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;..\..\..\..\..\DirectX\Include\;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Platforms/DirectX11/DirectX11Platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0 -BC:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Build --check-stamp-file C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\Platforms\DirectX11\DirectX11Platform\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Platforms/DirectX11/DirectX11Platform/CMakeLists.txt;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\MyGUI.DirectX11Platform.list;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\Platforms\DirectX11\DirectX11Platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Platforms/DirectX11/DirectX11Platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0 -BC:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Build --check-stamp-file C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\Platforms\DirectX11\DirectX11Platform\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Platforms/DirectX11/DirectX11Platform/CMakeLists.txt;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\MyGUI.DirectX11Platform.list;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\Platforms\DirectX11\DirectX11Platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Platforms/DirectX11/DirectX11Platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0 -BC:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Build --check-stamp-file C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\Platforms\DirectX11\DirectX11Platform\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Platforms/DirectX11/DirectX11Platform/CMakeLists.txt;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\MyGUI.DirectX11Platform.list;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\Platforms\DirectX11\DirectX11Platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Platforms/DirectX11/DirectX11Platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0 -BC:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Build --check-stamp-file C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\Platforms\DirectX11\DirectX11Platform\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Platforms/DirectX11/DirectX11Platform/CMakeLists.txt;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\MyGUI.DirectX11Platform.list;C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Build\Platforms\DirectX11\DirectX11Platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include\MyGUI_DirectX11DataManager.h" />
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include\MyGUI_DirectX11Diagnostic.h" />
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include\MyGUI_DirectX11Platform.h" />
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include\MyGUI_DirectX11RenderManager.h" />
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include\MyGUI_DirectX11Texture.h" />
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include\MyGUI_DirectX11RTTexture.h" />
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\include\MyGUI_DirectX11VertexBuffer.h" />
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\src\MyGUI_DirectX11DataManager.cpp" />
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\src\MyGUI_DirectX11RenderManager.cpp" />
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\src\MyGUI_DirectX11Texture.cpp" />
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\src\MyGUI_DirectX11RTTexture.cpp" />
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX11\DirectX11Platform\src\MyGUI_DirectX11VertexBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Build/MyGUIEngine/MyGUIEngine.vcxproj">
+      <Project>A6E3D774-C495-4A2B-AAC4-86E9CADEFE8C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/OrMisicL/Desktop/Projects/MyGUI_3.2.0/Build/ZERO_CHECK.vcxproj">
+      <Project>5A4829D2-47A0-4962-B1D9-1A401BF7CFC8</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

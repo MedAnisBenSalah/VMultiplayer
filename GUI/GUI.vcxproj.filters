@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Shared\Logger\Logger.cpp">
+      <Filter>Shared\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SharedUtility\SharedUtility.cpp">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIText.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIElement.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIEditBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIButton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="..\Shared\Common\Common.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Logger\Logger.h">
+      <Filter>Shared\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\SharedUtility.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIElement.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIText.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Vector2.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Vector3.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIEditBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\RGB.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\RGBA.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{1a25a9b9-b9f5-4916-a337-96811e3a93a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Common">
+      <UniqueIdentifier>{52f9d3a7-bda4-4976-99fe-e09e092806a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Logger">
+      <UniqueIdentifier>{f28e4b4d-1593-4e5b-9c77-029a90669ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{2fd2a0f6-e210-4cbb-b590-c7b9a49a9d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\SharedUtility">
+      <UniqueIdentifier>{54f8db22-dbaf-4649-972a-ecb831dc3eaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

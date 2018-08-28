@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\src\MyGUI_DirectXDataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\src\MyGUI_DirectXRenderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\src\MyGUI_DirectXTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\src\MyGUI_DirectXRTTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\src\MyGUI_DirectXVertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\include\MyGUI_DirectXDataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\include\MyGUI_DirectXDiagnostic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\include\MyGUI_DirectXPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\include\MyGUI_DirectXRenderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\include\MyGUI_DirectXTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\include\MyGUI_DirectXRTTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\include\MyGUI_DirectXVertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\Platforms\DirectX\DirectXPlatform\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{39CCDDC7-48BB-441B-AD32-E55396105BB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{538D2666-81A9-474F-B0D8-ED3C047C635B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

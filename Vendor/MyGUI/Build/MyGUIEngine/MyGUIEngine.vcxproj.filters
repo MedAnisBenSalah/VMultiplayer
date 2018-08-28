@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Button.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Canvas.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ComboBox.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_DDContainer.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_EditBox.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ImageBox.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ItemBox.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ListBox.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_MenuBar.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_MenuControl.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_MenuItem.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_MultiListBox.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_PopupMenu.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ProgressBar.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ScrollBar.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ScrollView.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_TextBox.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_TabControl.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_TabItem.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_MultiListItem.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Widget.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Window.cpp">
+      <Filter>Source Files\Widget\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_EditText.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_MainSkin.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_PolygonalSkin.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_RotatingSkin.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_SimpleText.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_SubSkin.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_TileRect.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_LayerItem.cpp">
+      <Filter>Source Files\Core\LayerItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_LayerNode.cpp">
+      <Filter>Source Files\Core\LayerItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_OverlappedLayer.cpp">
+      <Filter>Source Files\Core\LayerItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_RenderItem.cpp">
+      <Filter>Source Files\Core\LayerItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_SharedLayer.cpp">
+      <Filter>Source Files\Core\LayerItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_SharedLayerNode.cpp">
+      <Filter>Source Files\Core\LayerItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_SkinItem.cpp">
+      <Filter>Source Files\Core\LayerItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ActionController.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ControllerEdgeHide.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ControllerFadeAlpha.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ControllerPosition.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_BackwardCompatibility.cpp">
+      <Filter>Source Files\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Exception.cpp">
+      <Filter>Source Files\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Precompiled.cpp">
+      <Filter>Source Files\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_BiIndexBase.cpp">
+      <Filter>Source Files\Core\Common\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ScrollViewBase.cpp">
+      <Filter>Source Files\Core\Common\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_WidgetInput.cpp">
+      <Filter>Source Files\Core\Common\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_WidgetUserData.cpp">
+      <Filter>Source Files\Core\Common\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ResourceImageSet.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ResourceImageSetPointer.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ResourceLayout.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ResourceManualFont.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ResourceManualPointer.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ResourceSkin.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ChildSkinInfo.cpp">
+      <Filter>Source Files\Core\Resource\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_MaskPickInfo.cpp">
+      <Filter>Source Files\Core\Resource\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_SubWidgetBinding.cpp">
+      <Filter>Source Files\Core\Resource\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Any.cpp">
+      <Filter>Source Files\Core\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Colour.cpp">
+      <Filter>Source Files\Core\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ClipboardManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ControllerManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_DataManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_DynLibManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_FactoryManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_FontManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Gui.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_InputManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_LanguageManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_LayerManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_LayoutManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_PluginManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_PointerManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_RenderManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ResourceManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_SkinManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ToolTipManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_WidgetManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Constants.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_DataFileStream.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_DataStream.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_DynLib.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_GeometryUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_TextIterator.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_TextureUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_TextView.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_Timer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_UString.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_XmlDocument.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_ConsoleLogListener.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_FileLogListener.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_LevelLogFilter.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_LogManager.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\src\MyGUI_LogSource.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_CustomAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DDItemInfo.h">
+      <Filter>Header Files\Widget\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IBItemInfo.h">
+      <Filter>Header Files\Widget\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MenuItemType.h">
+      <Filter>Header Files\Widget\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResizingPolicy.h">
+      <Filter>Header Files\Widget\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_WidgetToolTip.h">
+      <Filter>Header Files\Widget\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Button.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Canvas.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ComboBox.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DDContainer.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_EditBox.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ImageBox.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ItemBox.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ListBox.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MenuBar.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MenuControl.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MenuItem.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MultiListBox.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_PopupMenu.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ProgressBar.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ScrollBar.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ScrollView.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TextBox.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TabControl.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TabItem.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MultiListItem.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Widget.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Window.h">
+      <Filter>Header Files\Widget\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Bitwise.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Constants.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_CoordConverter.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DataFileStream.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DataStream.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Delegate.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DelegateImplement.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DynLib.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Enumerator.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_EventPair.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_GeometryUtility.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_StringUtility.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TextChangeHistory.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TextIterator.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TextureUtility.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TextView.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TextViewData.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Timer.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_UString.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_WidgetTranslate.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_XmlDocument.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ConsoleLogListener.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_FileLogListener.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ILogFilter.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ILogListener.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LevelLogFilter.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LogLevel.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LogManager.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LogSource.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LogStream.h">
+      <Filter>Header Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_BackwardCompatibility.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Common.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DeprecatedTypes.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DeprecatedWidgets.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Diagnostic.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Exception.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_GenericFactory.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Macros.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Platform.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Precompiled.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Prerequest.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_RenderFormat.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_WidgetDefines.h">
+      <Filter>Header Files\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ICroppedRectangle.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IDataStream.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IItem.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IItemContainer.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IObject.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ISerializable.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ITexture.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IUnlinkWidget.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IVertexBuffer.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Plugin.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_RTTI.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Singleton.h">
+      <Filter>Header Files\Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_BiIndexBase.h">
+      <Filter>Header Files\Core\Common\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ScrollViewBase.h">
+      <Filter>Header Files\Core\Common\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_WidgetInput.h">
+      <Filter>Header Files\Core\Common\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_WidgetUserData.h">
+      <Filter>Header Files\Core\Common\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_EditText.h">
+      <Filter>Header Files\Core\SubWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MainSkin.h">
+      <Filter>Header Files\Core\SubWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_PolygonalSkin.h">
+      <Filter>Header Files\Core\SubWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_RotatingSkin.h">
+      <Filter>Header Files\Core\SubWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SimpleText.h">
+      <Filter>Header Files\Core\SubWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SubSkin.h">
+      <Filter>Header Files\Core\SubWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TileRect.h">
+      <Filter>Header Files\Core\SubWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IStateInfo.h">
+      <Filter>Header Files\Core\SubWidget\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ISubWidget.h">
+      <Filter>Header Files\Core\SubWidget\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ISubWidgetRect.h">
+      <Filter>Header Files\Core\SubWidget\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ISubWidgetText.h">
+      <Filter>Header Files\Core\SubWidget\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LayerItem.h">
+      <Filter>Header Files\Core\LayerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LayerNode.h">
+      <Filter>Header Files\Core\LayerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_OverlappedLayer.h">
+      <Filter>Header Files\Core\LayerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_RenderItem.h">
+      <Filter>Header Files\Core\LayerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SharedLayer.h">
+      <Filter>Header Files\Core\LayerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SharedLayerNode.h">
+      <Filter>Header Files\Core\LayerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SkinItem.h">
+      <Filter>Header Files\Core\LayerItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ILayer.h">
+      <Filter>Header Files\Core\LayerItem\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ILayerItem.h">
+      <Filter>Header Files\Core\LayerItem\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ILayerNode.h">
+      <Filter>Header Files\Core\LayerItem\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IRenderTarget.h">
+      <Filter>Header Files\Core\LayerItem\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ActionController.h">
+      <Filter>Header Files\Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ControllerEdgeHide.h">
+      <Filter>Header Files\Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ControllerFadeAlpha.h">
+      <Filter>Header Files\Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ControllerItem.h">
+      <Filter>Header Files\Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ControllerPosition.h">
+      <Filter>Header Files\Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceImageSet.h">
+      <Filter>Header Files\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceImageSetPointer.h">
+      <Filter>Header Files\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceLayout.h">
+      <Filter>Header Files\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceManualFont.h">
+      <Filter>Header Files\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceManualPointer.h">
+      <Filter>Header Files\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceSkin.h">
+      <Filter>Header Files\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceTrueTypeFont.h">
+      <Filter>Header Files\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IFont.h">
+      <Filter>Header Files\Core\Resource\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IPointer.h">
+      <Filter>Header Files\Core\Resource\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_IResource.h">
+      <Filter>Header Files\Core\Resource\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ChildSkinInfo.h">
+      <Filter>Header Files\Core\Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_FontData.h">
+      <Filter>Header Files\Core\Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LayoutData.h">
+      <Filter>Header Files\Core\Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MaskPickInfo.h">
+      <Filter>Header Files\Core\Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceImageSetData.h">
+      <Filter>Header Files\Core\Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SubWidgetBinding.h">
+      <Filter>Header Files\Core\Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SubWidgetInfo.h">
+      <Filter>Header Files\Core\Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Align.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Any.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Colour.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_CommonStateInfo.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_FlowDirection.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ImageInfo.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_KeyCode.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_MouseButton.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_RenderTargetInfo.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TCoord.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TPoint.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TRect.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_TSize.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Types.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Version.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_VertexData.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_WidgetStyle.h">
+      <Filter>Header Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ClipboardManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ControllerManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DataManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_DynLibManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_FactoryManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_FontManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_Gui.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_InputManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LanguageManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LayerManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_LayoutManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_PluginManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_PointerManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_RenderManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ResourceManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SkinManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_SubWidgetManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_ToolTipManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\include\MyGUI_WidgetManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\OrMisicL\Desktop\Projects\MyGUI_3.2.0\MyGUIEngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\Widget">
+      <UniqueIdentifier>{ED6F05CB-F52C-4B07-A011-42ED601D8C53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{C5A620BE-CEB2-4124-BFED-C95D5B3009BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{F07E1F20-7D7E-4FA9-A5F7-F474F0ABDDE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Common">
+      <UniqueIdentifier>{53564FCD-0B40-4727-8DE6-CCA40878BA78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\SubWidget">
+      <UniqueIdentifier>{34A11285-A479-46D0-9760-F41A3CDF20D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\LayerItem">
+      <UniqueIdentifier>{B513CF2D-37E3-45DF-8124-3FC990BD17FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Controller">
+      <UniqueIdentifier>{F4C1C066-CC1C-4A4B-B42D-3749942F345E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Resource">
+      <UniqueIdentifier>{CEA94A97-5ACE-4DF2-8C9F-7163EB2FE100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Types">
+      <UniqueIdentifier>{BCE9FF43-93F1-4A65-990B-995CE5B8D0FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Manager">
+      <UniqueIdentifier>{4F3C1945-1152-4302-8A6B-A8A38082BB11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{39CCDDC7-48BB-441B-AD32-E55396105BB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{538D2666-81A9-474F-B0D8-ED3C047C635B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\SubWidget">
+      <UniqueIdentifier>{3382E9B7-9964-4FB3-BB5B-B8C2C7D91689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\LayerItem">
+      <UniqueIdentifier>{E556244A-BF21-4B62-ADFD-D7A4CE86BF38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Controller">
+      <UniqueIdentifier>{B2D72B22-A2A4-411F-AF4E-E74E65303B74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Common">
+      <UniqueIdentifier>{2B210447-C214-4536-89D7-525DFC56D772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Resource">
+      <UniqueIdentifier>{D643994A-82AB-482F-BF7B-200D627F0A35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Types">
+      <UniqueIdentifier>{C946B88A-7945-4E5E-AF88-C6D749C9C5A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Manager">
+      <UniqueIdentifier>{4901B013-EAB4-417C-A8BA-63F0499DEC32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget\Types">
+      <UniqueIdentifier>{06DE3352-6C14-49B8-B1E4-9A92138C7BEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget\Widget">
+      <UniqueIdentifier>{767063E1-6937-41F7-A1CB-D36E41D93EA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Common\Interfaces">
+      <UniqueIdentifier>{1BB5F524-94DC-4E35-93CB-F9E506079D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Common\Base">
+      <UniqueIdentifier>{B7732CC4-61F0-4C88-89B2-8D20DE90991B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Resource\Interface">
+      <UniqueIdentifier>{86BF7C94-4EF2-4F76-99AC-4A7D9A3F5DFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Resource\Data">
+      <UniqueIdentifier>{49D6212B-103C-40B0-913A-6A46D177FB23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget">
+      <UniqueIdentifier>{EE5AD1BC-2800-4D91-873D-0844D1A80F03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{5D326C09-1DA0-4043-9B54-B07A1F9CA5E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{52C5443D-4E43-4736-AFAE-3EE788FC6EFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Common\Base">
+      <UniqueIdentifier>{23E6ED28-9B96-4C25-B6AE-4DB5C73D4C82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget\Widget">
+      <UniqueIdentifier>{670F4ED5-BC76-4E36-AD61-1BED74B66CDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Resource\Data">
+      <UniqueIdentifier>{B4457072-56C8-43BE-8006-35CE48F52699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Logging">
+      <UniqueIdentifier>{7246FFA8-03D0-40D9-A738-CABADFA2A952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility\Logging">
+      <UniqueIdentifier>{63878FBE-27E5-4D10-AA9C-C112BCF3CF41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\SubWidget\Interfaces">
+      <UniqueIdentifier>{1E3EF5D6-9A2E-40A3-86E1-B85B5307B47B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\LayerItem\Interfaces">
+      <UniqueIdentifier>{AA84BF30-8B11-403F-B835-B23941048764}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Shared\Logger\Logger.cpp">
+      <Filter>Shared\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SharedUtility\SharedUtility.cpp">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RFManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteFunction.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RFParameters.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSenderInfo.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Logger\Logger.h">
+      <Filter>Shared\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\SharedUtility.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Vector2.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Vector3.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="RFManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteFunction.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RFParameters.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSenderInfo.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{f3eac4e3-030f-49f3-8dfe-ad0b7dd17f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{b64dac6a-b2e9-45a6-aac5-b5904b981175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Logger">
+      <UniqueIdentifier>{095e5bee-36a8-46eb-891a-817ac9feef85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\SharedUtility">
+      <UniqueIdentifier>{36eba796-74ed-4b8a-a4d6-ee3a47332d91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

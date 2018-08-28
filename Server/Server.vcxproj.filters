@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Shared\SharedUtility\Library.cpp">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SharedUtility\SharedUtility.cpp">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Logger\Logger.cpp">
+      <Filter>Shared\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRFS.cpp">
+      <Filter>Server\RF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Component\Component.cpp">
+      <Filter>Shared\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Managers\ManagerBase.cpp">
+      <Filter>Shared\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkPlayer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Network\BitStream.cpp">
+      <Filter>Shared\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="MainRFS.cpp">
+      <Filter>Server\RF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="..\Shared\SharedUtility\Library.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\RGB.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\RGBA.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\SharedUtility.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Vector2.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SharedUtility\Vector3.h">
+      <Filter>Shared\SharedUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\Network.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Logger\Logger.h">
+      <Filter>Shared\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\RFParameters.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRFS.h">
+      <Filter>Server\RF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\RFIdentifiers.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetCommon.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetMessage.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetSenderInfo.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Component\Component.h">
+      <Filter>Shared\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPlayer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Managers\ManagerBase.h">
+      <Filter>Shared\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\BitStream.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="MainRFS.h">
+      <Filter>Server\RF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{30b838df-097c-4370-a452-1c23edf9b9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\SharedUtility">
+      <UniqueIdentifier>{1df15b53-79e8-43b4-bd9d-6925f59c94ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Logger">
+      <UniqueIdentifier>{f9f02266-3dc1-475c-a306-c38c5faa3d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Network">
+      <UniqueIdentifier>{5d9510e6-a7d2-43a9-853e-6e94927950ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{c563c6c5-3fba-4ec3-80cc-4688a890549b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\RF">
+      <UniqueIdentifier>{cf9d1dee-89e6-4fe2-a72e-a6d949e3007a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Component">
+      <UniqueIdentifier>{8425a968-1828-4cad-ab9b-3459045ad03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{d08968c4-ad4e-4c52-a661-05c6dbab86dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{8de498e6-122f-4a32-9a80-955d265490a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Managers">
+      <UniqueIdentifier>{d753ac7b-40a4-4490-bfed-8a9647b290d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
